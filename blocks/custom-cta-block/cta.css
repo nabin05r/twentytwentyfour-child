@@ -1,0 +1,52 @@
+.has-global-padding {
+  padding: 0 !important;
+}
+.wp-block .cta.alignwide {
+    max-width: var(--wp--style--global--content-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-block .cta.alignfull {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    box-sizing: border-box;
+    position: relative; /* Ensure it stays within the flow of the document */
+}
+.cta {
+  position: relative;
+  max-width: 100% !important;
+}
+.title h2 {
+  margin-bottom: 12px;
+}
+.cta-content-wrap,
+figure {
+  text-align: center;
+}
+.cta-content-wrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.cta-btn {
+  display: inline-block;
+  padding: 8px 24px;
+  border-radius: 50px;
+  transition: 0.3s linear;
+}
+.cta-btn:hover {
+  background: orange !important;
+  padding: 8px 30px;
+}
+.cta-btn a {
+  text-decoration: none !important;
+  color: white !important;
+}
+figure.featured-image {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 80%;
+}

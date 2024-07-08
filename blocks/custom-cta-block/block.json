@@ -1,0 +1,16 @@
+{
+    "name": "acf/custom-cta",
+    "title": "Custom CTA",
+    "description": "A custom cta block that uses ACF fields.",
+    "style": [ "file:./cta.css" ],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["cta", "quote"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "custom-cta.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}
